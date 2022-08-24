@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles4.css">
+  <script defer src="../store/script4.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Prata&family=Raleway:wght@300;400&display=swap" rel="stylesheet">
+  <title>Kavun</title>
+</head>
+<body>
+  <div class="wrapper">
+
+    <!-- nav bar -->
+    <header class="header">
+
+      <div class="header-container">
+
+        <div class="nav-icon">
+          <span></span>
+        </div>
+        
+        <nav class="nav-body">
+        
+          <ul class="nav-list">
+            <li class="nav-li"><a href="../index.html">Головна</a></li>
+            <li class="nav-li"><a href="../menu/index2.html">Меню</a></li>
+            <li class="nav-li nav-li-main"><a href="../store/index4.html">Магазин</a></li>
+            <li class="nav-li"><a href="../events/index3.html">Допомога ЗСУ!</a></li>
+          </ul>
+        
+        </nav>
+
+      </div>
+    
+    </header>
+
+    <!-- main -->
+    <main class="main">
+
+      <div class="goods">
+
+        <!-- bottle -->
+        <div class="goods-item">
+          <img id="botimg" class="goods-img" src="../store/img/bottle/mainbot.jpg">
+          <h3 class="goods-title">Пляшка Workout</h3>
+
+          <div class="button">
+            <button class="bot-button-color1 button-color" onclick=botButton1();></button>
+            <button class="bot-button-color2 button-color" onclick=botButton2();></button>
+            <button class="bot-button-color3 button-color" onclick=botButton3();></button>
+            <button class="bot-button-color4 button-color" onclick=botButton4();></button>
+            <button class="bot-button-color5 button-color" onclick=botButton5();></button>
+          </div>
+
+
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">750 ₴</span>
+          </div>
+        </div>
+
+        <!-- shopper -->
+        <div class="goods-item">
+          <img id="shopImg" class="goods-img" src="../store/img/shopper/shop1.jpg">
+          <h3 class="goods-title">Кавуновий шопер</h3>
+        
+          <div class="button">
+            <button class="shop-button-color1 button-color" onclick=shopButton1();></button>
+            <button class="shop-button-color2 button-color" onclick=shopButton2();></button>
+          </div>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">300 ₴</span>
+          </div>
+        </div>
+
+        <!-- hoddie -->
+        <div class="goods-item">
+          <img id="hodImg" class="goods-img" src="../store/img/hoodie/mainhod.jpg">
+          <h3 class="goods-title">Улюблене худі</h3>
+        
+          <div class="button">
+            <button class="hod-button-color1 button-color" onclick=hodButton1();></button>
+            <button class="hod-button-color2 button-color" onclick=hodButton2();></button>
+            <button class="hod-button-color3 button-color" onclick=hodButton3();></button>
+          </div>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">950 ₴</span>
+          </div>
+        </div>
+
+        <!-- bracelets -->
+        <div class="goods-item">
+          <img id="img" class="goods-img" src="../store/img/bracelets/brac1.jpg">
+          <h3 class="goods-title">Браслет "Ріднішої немає"</h3>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">80 ₴</span>
+          </div>
+        </div>
+
+        <div class="goods-item">
+          <img id="img" class="goods-img" src="../store/img/bracelets/brac2.jpg">
+          <h3 class="goods-title">Браслет для щасливого життя</h3>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">80 ₴</span>
+          </div>
+        </div>
+
+        <!-- clever dripper -->
+        <div class="goods-item">
+          <img id="dripImg" class="goods-img" src="../store/img/cleverdripper/maindrip.jpg">
+          <h3 class="goods-title">Пуровер</h3>
+        
+          <div class="button">
+            <button class="drip-button-color1 button-color" onclick=dripButton1();></button>
+            <button class="drip-button-color2 button-color" onclick=dripButton2();></button>
+            <button class="drip-button-color3 button-color" onclick=dripButton3();></button>
+            <button class="drip-button-color4 button-color" onclick=dripButton4();></button>
+            <button class="drip-button-color5 button-color" onclick=dripButton5();></button>
+            <button class="drip-button-color6 button-color" onclick=dripButton6();></button>
+            <button class="drip-button-color7 button-color" onclick=dripButton7();></button>
+          </div>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">950 ₴</span>
+          </div>
+        </div>
+
+        <!-- leap -->
+        <div class="goods-item">
+          <img id="img" class="goods-img" src="../store/img/leap/leap.jpg">
+          <h3 class="goods-title">Фруктово-горіховий батончик</h3>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">45 ₴</span>
+          </div>
+        </div>
+
+        <!-- thermos -->
+        <div class="goods-item">
+          <img id="img" class="goods-img" src="../store/img/thermos/thermos.jpg">
+          <h3 class="goods-title">Яскравий термос від Kinto</h3>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">1240 ₴</span>
+          </div>
+        </div>
+
+        <!-- coffee -->
+        <div class="goods-item">
+          <img id="img" class="goods-img" src="../store/img/coffee/coffee.jpg">
+          <h3 class="goods-title">Кавові дріпси від Easy Drip </h3>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">40/310 ₴</span>
+          </div>
+        </div>
+
+        <!-- tatto -->
+        <div class="goods-item">
+          <img id="img" class="goods-img" src="../store/img/tatto/tatto.jpg">
+          <h3 class="goods-title">Кавуновий тату-сет з 10 татуювань</h3>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+            <span class="goods-price">100 ₴</span>
+          </div>
+        </div>
+
+        <!-- sticker -->
+        <div class="goods-item">
+          <img id="img" class="goods-img" src="../store/img/ukraine/sticker.jpg">
+          <h3 class="goods-title">Стікерпак "Все буде Україна"</h3>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+
+            <div class="price-flag">
+              <span class="goods-price-uk">₴</span>
+              
+              <div class="flag">
+                <svg width="21" height="21" viewBox="0 0 976 633" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_1_27)">
+                  <g filter="url(#filter1_ii_1_27)">
+                    <rect x="6" y="2" width="964" height="310" fill="#005BBB" />
+                  </g>
+                  <rect x="5" y="1" width="966" height="312" stroke="url(#paint0_linear_1_27)" stroke-opacity="0.9" stroke-width="2" />
+                  <g filter="url(#filter2_ii_1_27)">
+                    <rect x="6" y="311" width="964" height="312" fill="#FFD500" />
+                  </g>
+                  <rect x="5" y="310" width="966" height="314" stroke="url(#paint1_linear_1_27)" stroke-opacity="0.9"
+                    stroke-width="2" />
+                </g>
+                <defs>
+                  <filter id="filter0_d_1_27" x="0" y="0" width="976" height="633" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_27" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_27" result="shape" />
+                  </filter>
+                  <filter id="filter1_ii_1_27" x="2" y="-2" width="972" height="318" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="4" dy="4" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.223529 0 0 0 0 0.6 0 0 0 1 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_27" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="-4" dy="-4" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.101961 0 0 0 0 0.458824 0 0 0 0 0.835294 0 0 0 1 0" />
+                    <feBlend mode="normal" in2="effect1_innerShadow_1_27" result="effect2_innerShadow_1_27" />
+                  </filter>
+                  <filter id="filter2_ii_1_27" x="2" y="307" width="972" height="320" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="4" dy="4" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.87451 0 0 0 0 0.709804 0 0 0 0 0 0 0 0 1 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_27" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="-4" dy="-4" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.952941 0 0 0 0 0.117647 0 0 0 1 0" />
+                    <feBlend mode="normal" in2="effect1_innerShadow_1_27" result="effect2_innerShadow_1_27" />
+                  </filter>
+                  <linearGradient id="paint0_linear_1_27" x1="6.00001" y1="10.4545" x2="990.196" y2="214.664"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#116CCC" />
+                    <stop offset="1" stop-color="#0341A1" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_1_27" x1="6" y1="311" x2="990.53" y2="513.02" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FFE40F" />
+                    <stop offset="1" stop-color="#FBD10D" />
+                  </linearGradient>
+                </defs>
+                </svg>
+              </div>
+            
+            </div>
+          </div>
+        </div>
+
+        <!-- card -->
+        <div class="goods-item">
+          <img id="cardImg" class="goods-img" src="../store/img/ukraine/card1.jpg">
+          <h3 class="goods-title">Патріотична листівка</h3>
+        
+          <div class="button">
+            <button class="card-button-color1 button-color" onclick=cardButton1();></button>
+            <button class="card-button-color2 button-color" onclick=cardButton2();></button>
+            <button class="card-button-color3 button-color" onclick=cardButton3();></button>
+            <button class="card-button-color4 button-color" onclick=cardButton4();></button>
+          </div>
+        
+          <div class="goods-low-part">
+            <hr class="goods-hr">
+
+            <div class="price-flag">
+              <span class="goods-price-uk">₴</span>
+
+              <div class="flag">
+                <svg width="21" height="21" viewBox="0 0 976 633" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g filter="url(#filter0_d_1_27)">
+                <g filter="url(#filter1_ii_1_27)">
+                  <rect x="6" y="2" width="964" height="310" fill="#005BBB" />
+                </g>
+                <rect x="5" y="1" width="966" height="312" stroke="url(#paint0_linear_1_27)" stroke-opacity="0.9"
+                  stroke-width="2" />
+                <g filter="url(#filter2_ii_1_27)">
+                  <rect x="6" y="311" width="964" height="312" fill="#FFD500" />
+                </g>
+                <rect x="5" y="310" width="966" height="314" stroke="url(#paint1_linear_1_27)" stroke-opacity="0.9"
+                  stroke-width="2" />
+              </g>
+              <defs>
+                <filter id="filter0_d_1_27" x="0" y="0" width="976" height="633" filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dy="4" />
+                  <feGaussianBlur stdDeviation="2" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_27" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_27" result="shape" />
+                </filter>
+                <filter id="filter1_ii_1_27" x="2" y="-2" width="972" height="318" filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="4" dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.223529 0 0 0 0 0.6 0 0 0 1 0" />
+                  <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_27" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="-4" dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.101961 0 0 0 0 0.458824 0 0 0 0 0.835294 0 0 0 1 0" />
+                  <feBlend mode="normal" in2="effect1_innerShadow_1_27" result="effect2_innerShadow_1_27" />
+                </filter>
+                <filter id="filter2_ii_1_27" x="2" y="307" width="972" height="320" filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="4" dy="4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 0.87451 0 0 0 0 0.709804 0 0 0 0 0 0 0 0 1 0" />
+                  <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_27" />
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha" />
+                  <feOffset dx="-4" dy="-4" />
+                  <feGaussianBlur stdDeviation="1" />
+                  <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                  <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.952941 0 0 0 0 0.117647 0 0 0 1 0" />
+                  <feBlend mode="normal" in2="effect1_innerShadow_1_27" result="effect2_innerShadow_1_27" />
+                </filter>
+                <linearGradient id="paint0_linear_1_27" x1="6.00001" y1="10.4545" x2="990.196" y2="214.664"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#116CCC" />
+                  <stop offset="1" stop-color="#0341A1" />
+                </linearGradient>
+                <linearGradient id="paint1_linear_1_27" x1="6" y1="311" x2="990.53" y2="513.02" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FFE40F" />
+                  <stop offset="1" stop-color="#FBD10D" />
+                </linearGradient>
+              </defs>
+                </svg>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- explayin -->
+      
+      <div class="explain">
+      
+        <div class="explain1">
+
+          <div class="explain2">
+            <p class="text-expl expl1">Для товарів зі значком</p>
+            
+            <div class="img-expl">
+              <svg width="21" height="21" viewBox="0 0 976 633" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_1_27)">
+                  <g filter="url(#filter1_ii_1_27)">
+                    <rect x="6" y="2" width="964" height="310" fill="#005BBB" />
+                  </g>
+                  <rect x="5" y="1" width="966" height="312" stroke="url(#paint0_linear_1_27)" stroke-opacity="0.9"
+                    stroke-width="2" />
+                  <g filter="url(#filter2_ii_1_27)">
+                    <rect x="6" y="311" width="964" height="312" fill="#FFD500" />
+                  </g>
+                  <rect x="5" y="310" width="966" height="314" stroke="url(#paint1_linear_1_27)" stroke-opacity="0.9"
+                    stroke-width="2" />
+                </g>
+                <defs>
+                  <filter id="filter0_d_1_27" x="0" y="0" width="976" height="633" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dy="4" />
+                    <feGaussianBlur stdDeviation="2" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_27" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_27" result="shape" />
+                  </filter>
+                  <filter id="filter1_ii_1_27" x="2" y="-2" width="972" height="318" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="4" dy="4" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0.223529 0 0 0 0 0.6 0 0 0 1 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_27" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="-4" dy="-4" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.101961 0 0 0 0 0.458824 0 0 0 0 0.835294 0 0 0 1 0" />
+                    <feBlend mode="normal" in2="effect1_innerShadow_1_27" result="effect2_innerShadow_1_27" />
+                  </filter>
+                  <filter id="filter2_ii_1_27" x="2" y="307" width="972" height="320" filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="4" dy="4" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0.87451 0 0 0 0 0.709804 0 0 0 0 0 0 0 0 1 0" />
+                    <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1_27" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                      result="hardAlpha" />
+                    <feOffset dx="-4" dy="-4" />
+                    <feGaussianBlur stdDeviation="1" />
+                    <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.952941 0 0 0 0 0.117647 0 0 0 1 0" />
+                    <feBlend mode="normal" in2="effect1_innerShadow_1_27" result="effect2_innerShadow_1_27" />
+                  </filter>
+                  <linearGradient id="paint0_linear_1_27" x1="6.00001" y1="10.4545" x2="990.196" y2="214.664"
+                    gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#116CCC" />
+                    <stop offset="1" stop-color="#0341A1" />
+                  </linearGradient>
+                  <linearGradient id="paint1_linear_1_27" x1="6" y1="311" x2="990.53" y2="513.02" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#FFE40F" />
+                    <stop offset="1" stop-color="#FBD10D" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            
+            <p class="text-expl expl2">вартість</p>
+          </div>
+          <p class="text-expl expl3">визначаєте ви, всі кошти</p>
+        </div>
+
+        <div class="explain3">
+          <p class="text-expl expl4">з продажу передаються на потреби ЗСУ</p>
+        </div>
+      
+      </div>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+    
+      <h2 class="footer-title">Кавун</h2>
+    
+      <div class="footer-bar">
+    
+        <ul class="footer-menu">
+          <li class="footer-li"><a href="../index.html">Головна</a></li>
+          <li class="footer-li"><a href="../menu/index2.html">Меню</a></li>
+          <li class="footer-li"><a href="../store/index4.html">Магазин</a></li>
+          <li class="footer-li"><a href="../events/index3.html">Допомога ЗСУ!</a></li>
+        </ul>
+    
+      </div>
+    
+      <hr class="footer-hr">
+    
+      <div class="footer-img">
+    
+        <div class="footer-img1">
+          <a target="_blank" href="https://instagram.com/kavun_plt?igshid=YmMyMTA2M2Y=">
+            <svg width="40" height="40" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_78)">
+                <path
+                  d="M6.97573 1.34999C8.78006 1.34999 8.99374 1.35791 9.70334 1.38956C10.3628 1.41858 10.7189 1.52937 10.9563 1.6217C11.2703 1.74304 11.4971 1.89076 11.7319 2.12554C11.9693 2.36295 12.1144 2.58718 12.2357 2.90109C12.3281 3.1385 12.4389 3.49726 12.4679 4.1541C12.4995 4.86634 12.5074 5.08001 12.5074 6.88171C12.5074 8.68604 12.4995 8.89972 12.4679 9.60931C12.4389 10.2688 12.3281 10.6249 12.2357 10.8623C12.1144 11.1762 11.9667 11.4031 11.7319 11.6379C11.4945 11.8753 11.2703 12.0204 10.9563 12.1417C10.7189 12.234 10.3602 12.3448 9.70334 12.3739C8.9911 12.4055 8.77743 12.4134 6.97573 12.4134C5.17139 12.4134 4.95772 12.4055 4.24812 12.3739C3.58864 12.3448 3.23252 12.234 2.99511 12.1417C2.6812 12.0204 2.45434 11.8726 2.21956 11.6379C1.98215 11.4005 1.83706 11.1762 1.71572 10.8623C1.62339 10.6249 1.5126 10.2662 1.48358 9.60931C1.45193 8.89708 1.44401 8.6834 1.44401 6.88171C1.44401 5.07737 1.45193 4.8637 1.48358 4.1541C1.5126 3.49462 1.62339 3.1385 1.71572 2.90109C1.83706 2.58718 1.98479 2.36031 2.21956 2.12554C2.45697 1.88813 2.6812 1.74304 2.99511 1.6217C3.23252 1.52937 3.59128 1.41858 4.24812 1.38956C4.95772 1.35791 5.17139 1.34999 6.97573 1.34999ZM6.97573 0.133911C5.14237 0.133911 4.91288 0.141825 4.19272 0.17348C3.47521 0.205135 2.98192 0.321203 2.55458 0.487392C2.10877 0.661495 1.73155 0.890994 1.35696 1.26822C0.979739 1.6428 0.75024 2.02002 0.576137 2.46319C0.409948 2.89317 0.29388 3.38383 0.262225 4.10134C0.23057 4.82413 0.222656 5.05363 0.222656 6.88698C0.222656 8.72034 0.23057 8.94983 0.262225 9.66999C0.29388 10.3875 0.409948 10.8808 0.576137 11.3081C0.75024 11.7539 0.979739 12.1312 1.35696 12.5057C1.73155 12.8803 2.10877 13.1125 2.55194 13.2839C2.98192 13.4501 3.47257 13.5662 4.19009 13.5978C4.91024 13.6295 5.13974 13.6374 6.97309 13.6374C8.80644 13.6374 9.03594 13.6295 9.75609 13.5978C10.4736 13.5662 10.9669 13.4501 11.3942 13.2839C11.8374 13.1125 12.2146 12.8803 12.5892 12.5057C12.9638 12.1312 13.1959 11.7539 13.3674 11.3108C13.5336 10.8808 13.6497 10.3901 13.6813 9.67262C13.713 8.95247 13.7209 8.72297 13.7209 6.88962C13.7209 5.05627 13.713 4.82677 13.6813 4.10662C13.6497 3.3891 13.5336 2.89581 13.3674 2.46847C13.2012 2.02002 12.9717 1.6428 12.5945 1.26822C12.2199 0.893632 11.8427 0.661495 11.3995 0.49003C10.9695 0.323841 10.4789 0.207773 9.76137 0.176118C9.03858 0.141825 8.80908 0.133911 6.97573 0.133911Z"
+                  fill="white" />
+                <path
+                  d="M6.9757 3.41821C5.06057 3.41821 3.50684 4.97195 3.50684 6.88708C3.50684 8.8022 5.06057 10.3559 6.9757 10.3559C8.89083 10.3559 10.4446 8.8022 10.4446 6.88708C10.4446 4.97195 8.89083 3.41821 6.9757 3.41821ZM6.9757 9.13722C5.73324 9.13722 4.72555 8.12954 4.72555 6.88708C4.72555 5.64462 5.73324 4.63693 6.9757 4.63693C8.21816 4.63693 9.22584 5.64462 9.22584 6.88708C9.22584 8.12954 8.21816 9.13722 6.9757 9.13722Z"
+                  fill="white" />
+                <path
+                  d="M11.3915 3.28103C11.3915 3.72948 11.0275 4.09088 10.5817 4.09088C10.1332 4.09088 9.77185 3.72684 9.77185 3.28103C9.77185 2.83259 10.1359 2.47119 10.5817 2.47119C11.0275 2.47119 11.3915 2.83522 11.3915 3.28103Z"
+                  fill="white" />
+              </g>
+              <defs>
+                <clipPath id="clip0_1_78">
+                  <rect width="13.5061" height="13.5061" fill="white" transform="translate(0.222656 0.133911)" />
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+        </div>
+    
+        <div class="footer-img2">
+          <a target="_blank" href="https://www.facebook.com/kavunplt/">
+            <svg width="37.5" height="37.5" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M7.65708 12.3648H11.3793L11.9637 8.56055H7.65632V6.48134C7.65632 4.90099 8.16957 3.49962 9.63891 3.49962H12V0.179741C11.5852 0.123382 10.7078 0 9.04996 0C5.58819 0 3.55867 1.8393 3.55867 6.0297V8.56055H0V12.3648H3.55867V22.821C4.26344 22.9276 4.97729 23 5.71007 23C6.37245 23 7.01893 22.9391 7.65708 22.8522V12.3648Z"
+                fill="white" />
+            </svg>
+          </a>
+        </div>
+    
+      </div>
+    
+    </footer>
+
+  </div>
+</body>
+</html>
